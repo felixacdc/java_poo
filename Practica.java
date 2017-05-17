@@ -1,6 +1,6 @@
 import java.lang.Math;
 
-public class HelloWorld
+public class Show
 {
     public static void main(String[] args)
     {
