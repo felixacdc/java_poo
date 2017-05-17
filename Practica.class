@@ -1,0 +1,35 @@
+import java.lang.Math;
+
+public class HelloWorld
+{
+    public static void main(String[] args)
+    {
+        System.out.print("Hello World!");
+    }
+}
+
+public class Celular {
+	//Abributos de la clase
+  	private String marca;
+    private String modelo;
+  	private String color;
+  
+  	// constructor con parametros
+    public Celular(String marca, String modelo, String color) {
+		this.marca = marca;
+      	this.modelo = modelo;
+      	this.color = color;
+    }
+  	
+    public Celular() {
+		
+    }
+  
+    public void llamar(String nombre) {
+    	System.out.println("Llamado a " + nombre);
+    }
+  	
+  	public void cortarLlamada(){
+		System.out.println("Llamada finalizada");
+	}
+}
