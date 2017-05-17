@@ -4,7 +4,15 @@ public class HelloWorld
 {
     public static void main(String[] args)
     {
-        System.out.print("Hello World!");
+        Celular celular = new Celular();
+        celular.setMarca("Nokia");
+        celular.setModelo("1100");
+        celular.setColor("Rojo");
+
+        celular.llamar("Pablo");
+        celular.cortarLlamada();
+        System.out.println();
+        celular.informarCaracteristica();
     }
 }
 
