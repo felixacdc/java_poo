@@ -13,16 +13,16 @@ public class Show
         //declaro el objeto peaje para identificar y cobrar el peaje de acuerdo al tipo de vehículo
         Peaje peaje= new Peaje();
         //cobrar peaje auto
-        peaje.cobrarPeajeAuto(auto);
+        peaje.cobrarPeaje(auto);
         System.out.println();
         //cobrar peaje bus
-        peaje.cobrarPeajeBus(bus);
+        peaje.cobrarPeaje(bus);
         System.out.println();
         //cobrar peaje camion
-        peaje.cobrarPeajeCamion(camion);
+        peaje.cobrarPeaje(camion);
         System.out.println();
         //cobrar peaje moto
-        peaje.cobrarPeajeMoto(moto);
+        peaje.cobrarPeaje(moto);
     }
 }
 
