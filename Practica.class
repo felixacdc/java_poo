@@ -32,4 +32,34 @@ public class Celular {
   	public void cortarLlamada(){
 		System.out.println("Llamada finalizada");
 	}
+
+    public void informarCaracteristica() {
+        System.out.println(String.format("Celular Marca: %s", marca));
+        System.out.println(String.format("Celular Modelo: %s", modelo));
+        System.out.println(String.format("Celular Color: %s", color));
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
 }
