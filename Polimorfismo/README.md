@@ -1,0 +1,3 @@
+# Polimorfismo en Java
+
+Para empezar con esta entrada, se ha de decir que el término "Polimorfismo" es una palabra de origen griego que significa "muchas formas". Este termino se utiliza en la POO para "referirse a la propiedad por la que es posible enviar mensajes sintácticamente iguales a objetos de tipos distintos". Como esta definición quizás sea algo difícil de entender, vamos a explicarla con el ejemplo que pusimos en la entrada de la herencia en la que queríamos simular el comportamiento que tendrían los diferentes integrantes de la selección española de fútbol; tanto los Futbolistas como el cuerpo técnico (Entrenadores, Masajistas, etc…).
