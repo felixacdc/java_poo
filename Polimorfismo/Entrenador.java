@@ -30,5 +30,5 @@ public class Entrenador extends SeleccionFutbol {
 
 	public void planificarEntrenamiento() {
 		System.out.println("Planificar un Entrenamiento");
-}
+	}
 }

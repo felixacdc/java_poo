@@ -48,11 +48,11 @@ public abstract class SeleccionFutbol {
 		this.edad = edad;
 	}
 
-	public void Conectarse() {
+	public void concentrarse() {
 		System.out.println("Conectarse");
 	}
 
-	public void Viajar() {
+	public void viajar() {
 		System.out.println("Viajar");
 	}
 

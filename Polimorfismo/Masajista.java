@@ -35,5 +35,5 @@ public class Masajista extends SeleccionFutbol {
 
 	public void darMasaje() {
 		System.out.println("Da un Masaje");
-}
+	}
 }
