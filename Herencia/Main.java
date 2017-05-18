@@ -22,18 +22,35 @@ public class Main {
 		//CONCENTRACION
 		System.out.println("Todos los integrantes comienzan una concentracion. (Todos ejecutan el mismo método)");
 		for(SeleccionFutbol integrante:integrantes) {
-			System.out.println(integrante.getNombre() + " " + integrante.getApellido() + " -> ");
+			System.out.print(integrante.getNombre() + " " + integrante.getApellido() + " -> ");
 			integrante.Conectarse();
 		}
 
 		//VIAJE
 		System.out.println("\nTodos los integrantes viajan para jugar un partido. (Todos ejecutan el mismo método)");
 		for(SeleccionFutbol integrante:integrantes) {
-			System.out.println(integrante.getNombre() + " " + integrante.getApellido() + " -> ");
+			System.out.print(integrante.getNombre() + " " + integrante.getApellido() + " -> ");
 			integrante.Viajar();
 		}
 
-		
+		//ENTRENAMIENTO
+		System.out.println("\nEntrenamiento: Solamente el entrenador y el futbolista tiene metodos para entrenar:");
+		System.out.print(delBosque.getNombre() + " " + delBosque.getApellido() + " -> ");
+		delBosque.dirigirEntrenamiento();
+		System.out.print(iniesta.getNombre() + " " + iniesta.getApellido() + " -> ");
+		iniesta.entrenar();
+
+		//MASAJE
+		System.out.println("\nMasaje: Solo el masajista tiene el método para dar un masaje:");
+		System.out.print(raulMartinez.getNombre() + " " + raulMartinez.getApellido() + " -> ");
+		raulMartinez.darMasaje();
+
+		//PARTIDO DE FUTBOL
+		System.out.println("\nPartido de Fútbol: Solamente el entrenador y el futbolista tiene metodos para el partido de fútbol:");
+		System.out.print(delBosque.getNombre() + " " + delBosque.getApellido() + " -> ");
+		delBosque.dirigirPartido();
+		System.out.print(iniesta.getNombre() + " " + iniesta.getApellido() + " -> ");
+		iniesta.jugarPartido();
 	}
 
 }
