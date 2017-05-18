@@ -18,11 +18,17 @@ public class Entrenador extends SeleccionFutbol {
 		this.idFederacion = idFederacion;
 	}
 
-	public void dirigirPartido() {
-		System.out.println("Dirige un partido");
+	@Override
+	public void entrenamiento() {
+		System.out.println("Dirige un entrenamiento (Clase Entrenador)");
 	}
 
-	public void dirigirEntrenamiento() {
-		System.out.println("Dirige un entrenamiento");
+	@Override
+	public void partidoFutbol() {
+		System.out.println("Dirige un Partido (Clase Entrenador)");
 	}
+
+	public void planificarEntrenamiento() {
+		System.out.println("Planificar un Entrenamiento");
+}
 }

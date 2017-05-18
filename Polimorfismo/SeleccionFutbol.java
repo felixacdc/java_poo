@@ -1,4 +1,4 @@
-public class SeleccionFutbol {
+public abstract class SeleccionFutbol {
 	
 	protected int id;
 	protected String nombre;
@@ -54,5 +54,13 @@ public class SeleccionFutbol {
 
 	public void Viajar() {
 		System.out.println("Viajar");
+	}
+
+	// IMPORTANTE -> METODO ABSTRACTO => no se implementa
+	// en la clase abstracta pero si en la clases hijas
+	public abstract void entrenamiento();
+
+	public void partidoFutbol() {
+		System.out.println("Asiste al Partido de Fútbol (Clase Padre)");
 	}
 }
